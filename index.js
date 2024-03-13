@@ -50,7 +50,7 @@ client.connect({
     console.error('Error connecting to SFTP server:', err);
 });
 
-const port = 9200;
+const port = 1500;
 
 app.listen(port, () => {
     console.log(`Server running on port ${ port}`);
